@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dress Code - Your Fashion Destination</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/shirt.png">
+
+</head>
+<body>
+  
+
+  <header>
+    
+    <nav>
+      <div class="container-nav">
+        
+          <a class="logo" href="#">Dress Code</a>
+          <ul class="nav-links">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    
+    </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Freehand&family=Kalam:wght@300&family=Libre+Barcode+39+Extended+Text&family=Reenie+Beanie&family=Sacramento&family=Style+Script&family=Ysabeau+SC&family=Zeyada&display=swap" rel="stylesheet">
+ </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Discover Your Style</h1>
+        <p>Shop the latest trends in fashion at Dress Code<br>
+          At Dress Code, we are passionate about fashion and dedicated to bringing you the latest and 
+          most stylish clothing and accessories for men and women. Step into our fashion world and explore a diverse collection of 
+          chic and trendy outfits that will elevate your style and leave a lasting impression.
+        </p>
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="container">
+        <h2>Products</h2>
+        <div class="product-grid">
+          <!-- Product cards go here -->
+          <div class="product-card">
+            <img src="images/product1.jpg" alt="Product 1">
+            <h3>Denim Jeans Navy Blue</h3>
+            <p>Price: ₹ 1699</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h3>Denim Jacket (Unisex)</h3>
+            <p>Price: ₹ 3299</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product3.jpg" alt="Product 3">
+            <h3>Nike Air Jordans Red-White</h3>
+            <p>Price: ₹ 5999</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product4.jpg" alt="Product 4">
+            <h3>White T-Shirt Levi's</h3>
+            <p>Price: ₹ 879</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product5.jpg" alt="Product 5">
+            <h3>Rolex Silver Watch Men's</h3>
+            <p>Price: ₹ 32999</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product6.jpg" alt="Product 6">
+            <h3>Ray Ban Sunglasses Gold-Back Frame</h3>
+            <p>Price: ₹ 3469</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product7.jpg" alt="Product 7">
+            <h3>White Crop Top Women's</h3>
+            <p>Price: ₹ 1799</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product8.jpg" alt="Product 8">
+            <h3>Gold-Silver ring for Women</h3>
+            <p>Price: ₹ 2359</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+         
+          <!-- Add more product cards here -->
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="featured">
+      <div class="container">
+        <h2>Featured Items</h2>
+        <div class="featured-grid">
+          <!-- Featured item cards go here -->
+          <div class="featured-card">
+            <img src="images/featured1.jpg" alt="Featured 1">
+            <h3>Air Jordan 1 Low-Top Sneaker</h3>
+            <p>Price: ₹ 7699</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="featured-card">
+            <img src="images/featured2.jpg" alt="Featured 2">
+            <h3>Blue Maple Cap</h3>
+            <p>Price: ₹ 1699</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="featured-card">
+            <img src="images/featured3.jpg" alt="Featured 3">
+            <h3>Brown Leather Handbag</h3>
+            <p>Price: ₹ 2199</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <div class="featured-card">
+            <img src="images/featured4.jpg" alt="Featured 4">
+            <h3>Men's Chains</h3>
+            <p>Price: ₹ 999</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+          <!-- Add more featured item cards here -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <form name="contact"  method="POST" netlify-honeypot="bot-field" data-netlify="true">
+          <p hidden aria-hidden="true">
+            <label>Don't fill out this input. <input name="bot-field" /></label>
+          </p>
+          <label> <input name="name" id="name" type="text" placeholder="Your Name" required></label>
+          <label> <input name="email" id="email" type="email" placeholder="Your Email" required></label>
+          <label> <textarea name="text" id="text" placeholder="Your Message" required></textarea></label>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Dress Code. All rights reserved.</p>
+  </footer>
+
+
+
+<script>
+
+var loader = document.getElementById("loaderid");
+window.addEventListener("load",function(){
+  loader.style.display="none";
+})
+
+</script>
+
+
+
+</body>
+</html>
